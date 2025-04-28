@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: './', // Ensures relative paths for JS/CSS assets
   build: {
-    outDir: 'dist' // Default, but explicit for clarity
-  }
+    outDir: 'dist' // Default, but explicit for clarity
+  }
 })
